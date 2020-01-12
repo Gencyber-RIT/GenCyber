@@ -1,0 +1,2 @@
+# GenCyber
+GenCyber RIT Website
