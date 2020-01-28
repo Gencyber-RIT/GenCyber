@@ -1,8 +1,49 @@
 /***********************************
 Navigation bar
 ************************************/
+.body-default{
+    font-family: "Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;
+}
 .navbar-default{
     padding: 5px 0px;
+}
+.navbar-branding {
+    margin-left: 2rem;
+    margin-right: 2rem;}
+}
+.navbar-global{
+    font-weight: 700 !important;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    margin-top: none;
+    padding: none;
+    display: block;
+    font-weight: bold;
+}
+.navbar-global .left{
+    text-align: left;
+    background-color: #000000;
+    color: #ffffff;
+    line-height: 3;
+    font-weight: bold;
+}
+.navbar-global .left a:hover{
+    background-color: #000000;
+    color: rgb(199, 83, 0);
+    text-decoration: none;
+}
+.navbar-global .right{
+    background-color: rgb(199, 83, 0);
+    text-align: right;
+    color: #ffffff;
+    line-height: 3;
+    font-weight: bold;
+}
+.navbar-global .right a:hover{
+    background-color: rgb(199, 83, 0);
+    color: #000000;
+    text-decoration: none;
 }
 .navbar-default .navbar-brand {
     color: #5F9F9F;
@@ -29,8 +70,8 @@ Navigation bar
 }
 .navbar {
     margin-bottom: 0px;
-    background-color: #9fbdd5;
-    font-family: 'Dosis', sans-serif !important;
+    background-color: #ffffff;
+    font-family: "Helvetica Neue","Helvetica","Roboto","Arial",sans-serif !important;
     position: sticky;
 }
 .padding-zero{
@@ -39,10 +80,15 @@ Navigation bar
 .mart20{
     margin-top: 20px;
 }
+.rit-logo{
+    height: 34px;
+    width: 83px;
+    align-items: left;
+}
 .sponsorImg{
-    max-width: 100%;
-    max-height: 100%;
-    margin-left: -15px;
+    width: 30%;
+    margin-right: 15px;
+    align-items: right
 }
 
 ul{
@@ -50,31 +96,35 @@ ul{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    margin-top: 25px;
-    margin-bottom: 25px;
     position: sticky;
 }
 
-li {
-    float: right;
-}
-
-li a {
-    display: block;
-    color: white;
+.navbar-menu {
     text-align: center;
     padding: 14px 20px;
-    text-decoration: none;
-    font-size:15px;
+    position: relative;
+    display: inline-block;
 }
 
-li a:hover {
-    background-color: white;
-    text-decoration: none;
+.navbar-menu a {
+    color: #727578;
+    font-weight: 700;
+    font-size: 15.84px;
+    font-family: "Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;
+    letter-spacing: normal;
 }
 
-li a:active {
+.navbar-menu a:hover {
     background-color: white;
+    text-decoration: none;
+    color: #000000;
+}
+
+.navbar-menu a:active {
+    background-color: white;
+}
+.navbar-ul {
+    text-align: center;
 }
 
 /***********************************

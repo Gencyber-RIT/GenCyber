@@ -9,55 +9,67 @@
     }
 </style>
 <head>
-    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
     <title>Scroll Page</title>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/new_style.css">
 </head>
-<body>
-    <!--Navigation Bar-->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div id="navbar"class="container">
-            <div class="row">
-                <div class="col-md-2 col-sm-2 col-xs-2">
-                    <a class="navbar-brand sponsorImg" href="homepage.html"> <img class="navbar-brand sponsorImg" src="img/RITGenCyberLogo.png" alt="GenCyber Logo"></a>
-                </div>
-                <div class="col-md-2 col-sm-2 col-xs-2">
-                    <img class="navbar-brand sponsorImg" src="img/nsaLogo2.png" alt="NSA Logo">
-                </div>
-                <div class="col-md-8 col-sm-8 col-xs-8">
-                    <ul>
-                        <li>
-                            <!-- link one -->
-                            <a href="#ContactUS"> Contact Us </a>
-                        </li>
-                        <li>
-                            <!-- link two -->
-                            <a href="#Apply" > Apply </a>
-                        </li>
-                        <li>
-                            <!-- link three -->
-                            <a href="#CampInformation"> Camp Info </a>
-                        </li>
-                        <li>
-                            <!-- link four -->
-                            <a href="#AboutUs"> About Us </a>
-                        </li>
-                        <li>
-                            <!-- link five -->
-                            <a href="#Home"> Home </a>
-                        </li>
-                    </ul>
-                </div>
+<body class="body-default">
+<div class="container-fluid">
+    <div class="row navbar-global">
+        <div class="col-md-11 left" >
+            RIT
+        </div>
+        <div class="col-md-1 right" >
+            <a href="#Apply" class="navbar-global right"> Apply </a>
+        </div>
+    </div>
+</div>
+<!--Navigation Bar-->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div id="navbar">
+        <div class="row navbar-branding">
+            <div class="col-sm-4">
+                <a class="navbar-brand" href="https://www.rit.edu/"><img class="navbar-brand sponsorImg"
+                                                                         src="img/RITGenCyberLogo.png" alt="RIT Logo"></a>
+            </div>
+            <div class="col-sm-4" style="text-align:center">
+                <h2>GenCyber RIT</h2>
+            </div>
+            <div class="col-sm-4" style="text-align:right">
+                <img class="navbar-brand sponsorImg justify-content-end" src="img/nsaLogo2.png" alt="NSA Logo">
             </div>
         </div>
-    </nav>
-    <!--/Navigation Bar-->
-    <!--Sections Per Tab-->
-    <div class = "main">
-        <!--Home Section-->
-        <section class = "Home" id = "Home">
-            <!--Hero-->
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <ul class="navbar-ul">
+                    <li class="navbar-menu">
+                        <!-- link five -->
+                        <a href="#Home"> Home </a>
+                    </li>
+                    <li class="navbar-menu">
+                        <!-- link four -->
+                        <a href="#AboutUs"> About Us </a>
+                    </li>
+                    <li class="navbar-menu">
+                        <!-- link three -->
+                        <a href="#CampInformation"> Camp </a>
+                    </li>
+                    <li class="navbar-menu">
+                        <!-- link one -->
+                        <a href="#ContactUS"> Contact Us </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+<!--/Navigation Bar-->
+<!--Sections Per Tab-->
+<div class="main">
+    <!--Home Section-->
+    <section class="Home" id="Home">
+        <!--Hero-->
         <section class="hero">
             <div class="fade-in">
                 <div class="hero-inner">
@@ -69,166 +81,182 @@
         </section>
         <!--/Hero-->
         <!--/Home Section-->
-        </section>
+    </section>
 
-        <section class = "AboutUs" id = "AboutUs">
-            <!--About Us Section-->
-                <!--Banner-->
-            <div class="banner">
-                <div class="bg-color">
-                    <div class="container">
-                        <div class="row">
-                            <div class="banner-text">
-                                <div class="tagline">
-                                    <h1>About Us</h1>
-                                </div>
-                             </div>
+    <section class="AboutUs" id="AboutUs">
+        <!--About Us Section-->
+        <!--Banner-->
+        <div class="banner">
+            <div class="bg-color">
+                <div class="container">
+                    <div class="row">
+                        <div class="banner-text">
+                            <div class="tagline">
+                                <h1>About Us</h1>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!--/Banner-->
+        </div>
+        <!--/Banner-->
 
-            <!--About Camp-->
-            <div id="aboutcamp">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6 col-xs-6">
-                            <h2>Our Camp</h2>
-                            <p>With hacking stories appearing daily in global news headlines, and a world that's more interconnected than ever, we need sharp minds focused on safeguarding online communities and capabilities. Students will love either the co-ed or all-girls, which are each hands-on and emphasis cyber ethics, online safety, cyber security and defense. <br>This RIT camp is funded by a federal grant from the NSA GenCyber program and is FREE for accepted students to attend.</p>
-                        </div>
-                        <div class="col-md-6 col-sm-6 col-xs-6">
-                            <img src="img/RITGenCyberLogo.png">
-                        </div>
+        <!--About Camp-->
+        <div id="aboutcamp">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-6">
+                        <h2>Our Camp</h2>
+                        <p>With hacking stories appearing daily in global news headlines, and a world that's more
+                            interconnected than ever, we need sharp minds focused on safeguarding online communities and
+                            capabilities. Students will love either the co-ed or all-girls, which are each hands-on and
+                            emphasis cyber ethics, online safety, cyber security and defense. <br>This RIT camp is
+                            funded by a federal grant from the NSA GenCyber program and is FREE for accepted students to
+                            attend.</p>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6">
+                        <img src="img/RITGenCyberLogo.png">
                     </div>
                 </div>
             </div>
-            <!--/About Camp-->
+        </div>
+        <!--/About Camp-->
 
-            <!--About Camp-->
-            <div id="aboutstaff">
+        <!--About Camp-->
+        <div id="aboutstaff">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-6">
+                        <h2>Our Team</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 col-xs-4">
+                        <img src="img/krutz_sm_2.png" height="250" width="175">
+                        <h3>Daniel Krutz</h3>
+                        <p>Daniel Krutz is the camp director</p>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-4">
+                        <img src="img/lana.jpg" height="250" width="175">
+                        <h3>Lana Verschage</h3>
+                        <p>Lana Verschage is the assistant camp director</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/About Camp-->
+        <!--/About Us Section-->
+    </section>
+    <section class="CampInformation" id="CampInformation">
+        <!--Camp Information Section-->
+        <!--Banner-->
+        <div class="banner">
+            <div class="bg-color">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-6 col-sm-6 col-xs-6">
-                            <h2>Our Team</h2>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-4 col-sm-4 col-xs-4">
-                            <img src="img/krutz_sm_2.png" height="250" width="175">
-                            <h3>Daniel Krutz</h3>
-                            <p>Daniel Krutz is the camp director</p>
-                        </div>
-                        <div class="col-md-4 col-sm-4 col-xs-4">
-                            <img src="img/lana.jpg" height="250" width="175">
-                            <h3>Lana Verschage</h3>
-                            <p>Lana Verschage is the assistant camp director</p>
+                        <div class="banner-text">
+                            <div class="tagline">
+                                <h1>Camp Info</h1>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!--/About Camp-->
-            <!--/About Us Section-->
-        </section>
-        <section class = "CampInformation" id = "CampInformation">
-            <!--Camp Information Section-->
-            <!--Banner-->
-            <div class="banner">
-                <div class="bg-color">
-                    <div class="container">
-                        <div class="row">
-                            <div class="banner-text">
-                                <div class="tagline">
-                                    <h1>Camp Info</h1>
-                                </div>
-                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--/Banner-->
+        </div>
+        <!--/Banner-->
 
-            <!--Camps-->
-            <div id="camps">
+        <!--Camps-->
+        <div id="camps">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <h2>2019-2020 Summer Camps</h2>
+                        <p>The will be <b>TWO</b> opportunities to participate in GenCyber at RIT this summer. We will
+                            offer a one-week coed camp and a one-week camp for girls. Both weeks will follow the same
+                            curriculum. GenCyber will be offered in collaboration with RIT's Camp Tiger on the RIT
+                            campus with RIT faculty, staff, and students serving as instructors. For more information on
+                            Camp Tiger please visit the <a href="https://www.rit.edu/academicaffairs/koc/">Camp Tiger
+                                website</a>.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-6">
+                        <h2>Co-Ed</h2>
+                        <h3>July 8-12, 2020</h3>
+                        <p>Our co-ed camp will be held July 8-12, 2020. This camp welcomes all students who want to
+                            learn more about cyber security, cyber ethics, online safety, cyber security and
+                            defense.</p>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6">
+                        <h2>Girls</h2>
+                        <h3>July 22-26, 2020</h3>
+                        <p> Our girls camp will be held July 22-26, 2020. This camp welcomes all girls who want to learn
+                            more about cyber security, cyber ethics, online safety, cyber security and defense.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/Camps-->
+        <!--/Camp Information Section-->
+    </section>
+    <section class="Apply" id="Apply">
+        <!--Apply Section-->
+        <a href="https://forms.gle/C6Xq6BYFh9Nr6LQh7" target="_blank"> Apply </a>
+        <!--/Apply Section-->
+    </section>
+    <section class="ContactUS" id="ContactUS">
+        <!--Contact Us Section-->
+        <!--Banner-->
+        <div class="banner">
+            <div class="bg-color">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-12 col-sm-12 col-xs-12">
-                            <h2>2019-2020 Summer Camps</h2>
-                            <p>The will be <b>TWO</b> opportunities to participate in GenCyber at RIT this summer. We will offer a one-week coed camp and a one-week camp for girls. Both weeks will follow the same curriculum. GenCyber will be offered in collaboration with RIT's Camp Tiger on the RIT campus with RIT faculty, staff, and students serving as instructors. For more information on Camp Tiger please visit the <a href="https://www.rit.edu/academicaffairs/koc/">Camp Tiger website</a>.</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6 col-xs-6">
-                            <h2>Co-Ed</h2>
-                            <h3>July 8-12, 2020</h3>
-                            <p>Our co-ed camp will be held July 8-12, 2020. This camp welcomes all students who want to learn more about cyber security, cyber ethics, online safety, cyber security and defense.</p>
-                        </div>
-                        <div class="col-md-6 col-sm-6 col-xs-6">
-                            <h2>Girls</h2>
-                            <h3>July 22-26, 2020</h3>
-                            <p> Our girls camp will be held July 22-26, 2020. This camp welcomes all girls who want to learn more about cyber security, cyber ethics, online safety, cyber security and defense.</p>
+                        <div class="banner-text">
+                            <div class="tagline">
+                                <h1>Contact Us</h1>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!--/Camps-->
-            <!--/Camp Information Section-->
-        </section>
-        <section class = "Apply" id = "Apply">
-            <!--Apply Section-->
-            <a href="https://forms.gle/C6Xq6BYFh9Nr6LQh7" target="_blank"> Apply </a>
-            <!--/Apply Section-->
-        </section>
-        <section class = "ContactUS" id = "ContactUS">
-            <!--Contact Us Section-->
-            <!--Banner-->
-            <div class="banner">
-                <div class="bg-color">
-                    <div class="container">
-                        <div class="row">
-                            <div class="banner-text">
-                                <div class="tagline">
-                                    <h1>Contact Us</h1>
-                                </div>
-                             </div>
-                        </div>
+        </div>
+        <!--/Banner-->
+        <!--Address Information-->
+        <div id="addressinfo">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-6">
+                        <h2><br></br><b>Address</b></h2>
+                        <p>Rochester Institute of Technology<br>1 Lomb Memorial Drive<br>Rochester, NY 14623</p>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6">
+                        <iframe allowtransparency="true" frameborder="0" scrolling="no"
+                                style="width: 100%; height: 250px; margin-top: 10px; margin-bottom: 10px;"
+                                src="https://www.mapcustomizer.com/map/QVZ3TDFFdDNSUm89cThNNHorMTZDeW89"></iframe>
                     </div>
                 </div>
             </div>
-            <!--/Banner-->
-            <!--Address Information-->
-            <div id="addressinfo">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6 col-xs-6">
-                            <h2> <br></br><b>Address</b></h2>
-                            <p>Rochester Institute of Technology<br>1 Lomb Memorial Drive<br>Rochester, NY 14623</p>
-                        </div>
-                        <div class="col-md-6 col-sm-6 col-xs-6">
-                            <iframe allowtransparency="true" frameborder="0" scrolling="no" style="width: 100%; height: 250px; margin-top: 10px; margin-bottom: 10px;" src="https://www.mapcustomizer.com/map/QVZ3TDFFdDNSUm89cThNNHorMTZDeW89"></iframe>
-                        </div>
+        </div>
+        <!--/Address Information-->
+        <!--Contact Information-->
+        <div id="contactinfo">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-6">
+                        <img src="img/krutz_sm_2.png" style="padding: 10px">
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6">
+                        <h2><br></br><b>Camp Director</b></h2>
+                        <p>Daniel Krutz<br><a href="mailto:dxkvse@rit.edu">dxkvse@rit.edu</a><br>585-475-2896</p>
                     </div>
                 </div>
             </div>
-            <!--/Address Information-->
-            <!--Contact Information-->
-            <div id="contactinfo">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6 col-xs-6">
-                            <img src="img/krutz_sm_2.png" style="padding: 10px">
-                        </div>
-                        <div class="col-md-6 col-sm-6 col-xs-6">
-                            <h2> <br></br><b>Camp Director</b></h2>
-                            <p>Daniel Krutz<br><a href="mailto:dxkvse@rit.edu">dxkvse@rit.edu</a><br>585-475-2896</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--/Contact Information-->
-            <!--/Contact Us Section-->
-        </section>
-        <!--/Sections Per Tab-->
-    </div>
+        </div>
+        <!--/Contact Information-->
+        <!--/Contact Us Section-->
+    </section>
+    <!--/Sections Per Tab-->
+</div>
+</div>
 </body>
 </html>
