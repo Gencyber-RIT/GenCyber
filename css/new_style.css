@@ -30,18 +30,19 @@ Navigation bar
 }
 .navbar-global .left a:hover{
     background-color: #000000;
-    color: rgb(199, 83, 0);
+    color: rgb(247, 105, 2);
     text-decoration: none;
 }
 .navbar-global .right{
-    background-color: rgb(199, 83, 0);
+    background-color: rgb(247, 105, 2);
     text-align: right;
     color: #ffffff;
     line-height: 3;
     font-weight: bold;
+    text-align: center;
 }
 .navbar-global .right a:hover{
-    background-color: rgb(199, 83, 0);
+    background-color: rgb(247, 105, 2);
     color: #000000;
     text-decoration: none;
 }
@@ -90,7 +91,7 @@ Navigation bar
     align-items: left;
 }
 .sponsorImg{
-    width: 30%;
+    width: 38%;
     margin-right: 15px;
     align-items: right
 }
@@ -131,13 +132,31 @@ ul{
     text-align: center;
 }
 
+/*Specific Cases*/
+
+.btn.btn-custom-lg,
+.btn.btn-custom-sm,
+.btn.btn-custom-xs {
+  border-radius: 0;
+}
+/*Global*/
+
+.btn.btn-square {
+  border-radius: 0;
+  background-color: rgb(247, 105, 2);
+  border: rgb(247, 105, 2);
+}
+.btn.btn-square:hover{
+    background-color: rgb(0,0,0);
+    border: rgb(0,0,0);
+}
 /***********************************
 Hero
 ************************************/
 
 .hero {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -151,12 +170,12 @@ Hero
 }
 
 .hero h1 {
-    font-size:5em;
+    font-size:4em;
     margin-top: 0;
     margin-bottom: 0.5em;
 }
 
-.hero .btn {
+.hero .btn1 {
     display: block;
     width: 200px;
     padding: 1em;
@@ -171,7 +190,7 @@ Hero
     background-color: #9fbdd5BF;
 }
 
-.hero .btn a:hover {
+.hero .btn1 a:hover {
     background-color: white;
     text-decoration: none;
 }
