@@ -246,6 +246,8 @@ Footer
     color:#ffffff;
     padding:10px;
     font-size: 13px;
+    bottom: -100px;
+    position: absolute;
 }
 #ritfooter a {
     color: #919191;
@@ -330,3 +332,4 @@ a{
     border-radius: 20px;
     background-color: #9fbdd5BF;
 }
+
