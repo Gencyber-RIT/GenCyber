@@ -155,7 +155,6 @@ Hero
 
 .hero {
     width: 100%;
-    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -237,10 +236,37 @@ Banner
     font-size: 22px;
 }
 
-.section_padding{
-    padding-top: 130px
+.section-padding-top{
+    padding-top: 130px;
  }
+.section-padding-bottom{
+    padding-bottom: 130px;
+ }
+.section-height{
 
+    height: auto;
+}
+.align-center{
+    text-align: center
+}
+/***********************************
+Eligibility
+************************************/
+.eligibility{
+    color: #ffffff;
+    font-size: 16px;
+    background-color: #1B70AC;
+}
+.apply-icon{
+    color: #ffffff;
+}
+.apply-icon a:hover{
+    color: rgb(247, 105, 2);
+    text-decoration: none !important;
+}
+.rit-orange{
+    color: rgb(247, 105, 2);
+}
 /***********************************
 Footer
 ************************************/
@@ -310,7 +336,13 @@ Transitions/Fades
       opacity:1;
 }
 }
-
+.icon-center{
+    display:block;
+    text-align:center;
+}
+.background-rit{
+ background-color: rgb(247, 105, 2)
+}
 /***********************************
 Camp Info
 ************************************/
