@@ -3,6 +3,8 @@ Navigation bar
 ************************************/
 .body-default{
     font-family: "Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;
+    font-size: 16px;
+    text-align: justify;
 }
 .navbar-default{
     padding: 5px 0px;
@@ -20,6 +22,7 @@ Navigation bar
     padding: none;
     display: block;
     font-weight: bold;
+    font-size: 12px;
 }
 .navbar-global .left{
     text-align: left;
@@ -255,13 +258,12 @@ Eligibility
 .eligibility{
     color: #ffffff;
     font-size: 16px;
-    background-color: #1B70AC;
 }
 .apply-icon{
     color: #ffffff;
 }
 .apply-icon a:hover{
-    color: rgb(247, 105, 2);
+    color: #000000;
     text-decoration: none !important;
 }
 .rit-orange{
