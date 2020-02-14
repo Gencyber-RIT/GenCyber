@@ -256,6 +256,14 @@ Footer
     color: #919191;
 }
 
+myFooter {
+    background-color: black;
+}
+
+.menu--social nav{
+
+}
+
 /***********************************
 Transitions/Fades
 ************************************/
