@@ -240,7 +240,7 @@ Banner
 }
 
 .section-padding-top{
-    padding-top: 130px;
+    padding-top: 150px;
  }
 .section-padding-bottom{
     padding-bottom: 130px;
@@ -367,6 +367,17 @@ Camp Info
     border-radius: 20px;
     background-color: #9fbdd5BF;
 }
+.camp-left{
+    border-right: 1px solid #333;
+}
+
+.apply-camps{
+    color: rgb(247, 105, 2);
+}
+.apply-camps a:hover{
+    color: #000000;
+    text-decoration: none !important;
+}
 
 /*
 All Media Devices
@@ -456,3 +467,5 @@ All Media Devices
  }
 
 }
+
+
