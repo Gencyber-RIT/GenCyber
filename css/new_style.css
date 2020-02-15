@@ -371,10 +371,10 @@ Camp Info
     border-right: 1px solid #333;
 }
 
-.apply-camps{
+.rit-theme{
     color: rgb(247, 105, 2);
 }
-.apply-camps a:hover{
+.rit-theme a:hover{
     color: #000000;
     text-decoration: none !important;
 }
