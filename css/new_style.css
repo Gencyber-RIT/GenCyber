@@ -3,6 +3,8 @@ Navigation bar
 ************************************/
 .body-default{
     font-family: "Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;
+    font-size: 16px;
+    text-align: justify;
 }
 .navbar-default{
     padding: 5px 0px;
@@ -20,6 +22,7 @@ Navigation bar
     padding: none;
     display: block;
     font-weight: bold;
+    font-size: 12px;
 }
 .navbar-global .left{
     text-align: left;
@@ -155,7 +158,6 @@ Hero
 
 .hero {
     width: 100%;
-    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -237,10 +239,36 @@ Banner
     font-size: 22px;
 }
 
-.section_padding{
-    padding-top: 130px
+.section-padding-top{
+    padding-top: 150px;
  }
+.section-padding-bottom{
+    padding-bottom: 130px;
+ }
+.section-height{
 
+    height: auto;
+}
+.align-center{
+    text-align: center
+}
+/***********************************
+Eligibility
+************************************/
+.eligibility{
+    color: #ffffff;
+    font-size: 16px;
+}
+.apply-icon{
+    color: #ffffff;
+}
+.apply-icon a:hover{
+    color: #000000;
+    text-decoration: none !important;
+}
+.rit-orange{
+    color: rgb(247, 105, 2);
+}
 /***********************************
 Footer
 ************************************/
@@ -318,7 +346,13 @@ Transitions/Fades
       opacity:1;
 }
 }
-
+.icon-center{
+    display:block;
+    text-align:center;
+}
+.background-rit{
+ background-color: rgb(247, 105, 2)
+}
 /***********************************
 Camp Info
 ************************************/
@@ -340,6 +374,17 @@ Camp Info
     border: 3px solid white;
     border-radius: 20px;
     background-color: #9fbdd5BF;
+}
+.camp-left{
+    border-right: 1px solid #333;
+}
+
+.rit-theme{
+    color: rgb(247, 105, 2);
+}
+.rit-theme a:hover{
+    color: #000000;
+    text-decoration: none !important;
 }
 
 /*
@@ -430,3 +475,5 @@ All Media Devices
  }
 
 }
+
+
